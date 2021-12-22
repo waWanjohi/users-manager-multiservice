@@ -5,7 +5,6 @@ import corp.stickman.users.models.User;
 import corp.stickman.users.repositories.UserRepository;
 import corp.stickman.users.services.UserService;
 import lombok.extern.slf4j.Slf4j;
-import org.hibernate.mapping.Any;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

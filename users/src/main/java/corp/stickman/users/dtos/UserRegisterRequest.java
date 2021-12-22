@@ -7,5 +7,5 @@ public record UserRegisterRequest(
         String email,
         Integer phoneNumber,
         Integer businessNumber,
-        Integer passportNumber ) {
+        Integer passportNumber) {
 }
