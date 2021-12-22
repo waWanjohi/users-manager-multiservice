@@ -4,11 +4,7 @@ package corp.stickman.users.services;
 import corp.stickman.users.dtos.UserRegisterRequest;
 import corp.stickman.users.models.User;
 import corp.stickman.users.repositories.UserRepository;
-import org.hibernate.annotations.Any;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 
 @Service
