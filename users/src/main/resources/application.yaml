@@ -2,6 +2,9 @@ server:
   port: 8080
 
 spring:
+  application:
+    name: users
+
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/users_service

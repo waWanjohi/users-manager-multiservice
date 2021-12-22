@@ -1,13 +1,13 @@
 server:
-  port: 8080
+  port: 9090
 
 spring:
   application:
-    name: users
+    name: emailmanager
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/users_service
+    url: jdbc:mysql://localhost:3306/email_manager
     username: 'root'
     password: 'rootroot'
 
@@ -17,4 +17,4 @@ spring:
 
   mvc:
     pathmatch:
-      matching-strategy: ant_path_matcher
+      matching-strategy: path_pattern_parser
