@@ -27,6 +27,7 @@ public class UserCheckHistory {
     }
 
 
+
     public Integer getUserId() {
         return userId;
     }
